@@ -2,14 +2,14 @@
 class Gitstrap < Formula
   desc ""
   homepage "https://github.com/g4s8/gitstrap"
-  version "0.1.8"
+  version "0.2.2"
 
   if OS.mac?
-    url "https://github.com/g4s8/gitstrap/releases/download/0.1.8/gitstrap_0.1.8_Darwin_x86_64.tar.gz"
-    sha256 "b02c10219d22df374bffe3d4ce0c50c58d3f7418c75d20c47db34163c36a27a0"
+    url "https://github.com/g4s8/gitstrap/releases/download/0.2.2/gitstrap_0.2.2_Darwin_x86_64.tar.gz"
+    sha256 "b1e4797964ef779497e0325637e7471c69d6fd4ba3ac415c883e3569caf5a0a6"
   elsif OS.linux?
-    url "https://github.com/g4s8/gitstrap/releases/download/0.1.8/gitstrap_0.1.8_Linux_x86_64.tar.gz"
-    sha256 "a9bdd46bd21e96bf977aea199702b3a9f83dc342cf566788759f3590dd61bf3f"
+    url "https://github.com/g4s8/gitstrap/releases/download/0.2.2/gitstrap_0.2.2_Linux_x86_64.tar.gz"
+    sha256 "7c7d28eb2167c7a9fb05e7d93f229fec2c53dcc4c375230c18d575bd5ef4d1a6"
   end
   
   depends_on "git"
