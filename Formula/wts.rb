@@ -2,15 +2,15 @@
 class Wts < Formula
   desc ""
   homepage "https://github.com/g4s8/wts"
-  version "0.1.2"
+  version "0.1.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/g4s8/wts/releases/download/0.1.2/wts_0.1.2_Darwin_x86_64.tar.gz"
-    sha256 "56763a2ed78ba8f18a184af6ab61fb05c6d956a65d9b6fd1b2361a301f65a816"
+    url "https://github.com/g4s8/wts/releases/download/0.1.3/wts_0.1.3_Darwin_x86_64.tar.gz"
+    sha256 "9d4a1fd743e0bb16b634a1b984d2cc7eccde084fd562817e2c7870129ddb5d7b"
   elsif OS.linux?
-    url "https://github.com/g4s8/wts/releases/download/0.1.2/wts_0.1.2_Linux_x86_64.tar.gz"
-    sha256 "b4e83fca8dc8cd4236d5e4f9a139b0b3e62456a42963ca96878f547863a42a55"
+    url "https://github.com/g4s8/wts/releases/download/0.1.3/wts_0.1.3_Linux_x86_64.tar.gz"
+    sha256 "e3485525a8109b16df6c9c271afa321536ef1145c4c24b60fec72443ce14ce82"
   end
   
   depends_on "git"
