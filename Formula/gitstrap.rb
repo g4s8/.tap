@@ -2,16 +2,16 @@
 class Gitstrap < Formula
   desc ""
   homepage "https://github.com/g4s8/gitstrap"
-  version "0.2.6"
+  version "1.0.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/g4s8/gitstrap/releases/download/0.2.6/gitstrap_0.2.6_Darwin_x86_64.tar.gz"
-    sha256 "8d41b482681b38d4878725715220ff2a1f174da635e26a2a2145901f6a822930"
+    url "https://github.com/g4s8/gitstrap/releases/download/1.0.3/gitstrap_Darwin_x86_64.tar.gz"
+    sha256 "fc0933463c3d19017d5650a0680c5ef9f8326d1a8ed3d1086a3e53817ee77485"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/g4s8/gitstrap/releases/download/0.2.6/gitstrap_0.2.6_Linux_x86_64.tar.gz"
-      sha256 "0b69e66e4137f598bef9726dcfd6984739028bcd61a4ec3775c3a4ddae9821aa"
+      url "https://github.com/g4s8/gitstrap/releases/download/1.0.3/gitstrap_Linux_x86_64.tar.gz"
+      sha256 "5062ecdc95d7fbf52733030dc515160c3c59caec3ce125771702d505121e0a73"
     end
   end
   
