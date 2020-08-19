@@ -2,16 +2,16 @@
 class Reporter < Formula
   desc ""
   homepage "https://github.com/g4s8/reporter"
-  version "0.1.1"
+  version "0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/g4s8/reporter/releases/download/0.1.1/reporter_0.1.1_Darwin_x86_64.tar.gz"
-    sha256 "42969c2d2b2ee2da88acc00dd16c767d5b6e0d2a059909ec133e82abf1dcf25b"
+    url "https://github.com/g4s8/reporter/releases/download/0.2/reporter_0.2_Darwin_x86_64.tar.gz"
+    sha256 "b2e2ab54bc5d515462dc522111eae7e0667245e2fce23aec0b516e9c98246a66"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/g4s8/reporter/releases/download/0.1.1/reporter_0.1.1_Linux_x86_64.tar.gz"
-      sha256 "9430fcf0e80a6a6e48e689b783fbae6081e40debd5188a388fd9a40a069fad24"
+      url "https://github.com/g4s8/reporter/releases/download/0.2/reporter_0.2_Linux_x86_64.tar.gz"
+      sha256 "1b03ff13d3a5e73550de606f197fdd62b413b681c87a8047d9ac80c127fbeddc"
     end
   end
 
