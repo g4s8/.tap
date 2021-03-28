@@ -5,20 +5,20 @@
 class Gitstrap < Formula
   desc ""
   homepage "https://github.com/g4s8/gitstrap"
-  version "2.0-alpha-r2"
+  version "2.0.0"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/g4s8/gitstrap/releases/download/v2.0-alpha-r2/gitstrap_Darwin_x86_64.tar.gz"
-    sha256 "908ecb6defd8cee8416ed84fbe6efc916486c3f1c67c4c1a5c427702878dd144"
+    url "https://github.com/g4s8/gitstrap/releases/download/v2.0.0/gitstrap_Darwin_x86_64.tar.gz"
+    sha256 "e48fcda49588d1df38a8ce17fa8330ea67157e36aea64f96eb583d93f34c1743"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/g4s8/gitstrap/releases/download/v2.0-alpha-r2/gitstrap_Linux_x86_64.tar.gz"
-    sha256 "734a42964ea0b4ec0b0f1e9e46ca2010110cf1fb8ddf673c5f2f4219b8ae7aba"
+    url "https://github.com/g4s8/gitstrap/releases/download/v2.0.0/gitstrap_Linux_x86_64.tar.gz"
+    sha256 "ba51afff835dc09f0431be6446bc0d132625041ab2074b14a31e08e7cd904fff"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/g4s8/gitstrap/releases/download/v2.0-alpha-r2/gitstrap_Linux_arm64.tar.gz"
-    sha256 "af13e8e003d32608cc37090d2c0da34d42f5487348e0d93524cf86e078a31d04"
+    url "https://github.com/g4s8/gitstrap/releases/download/v2.0.0/gitstrap_Linux_arm64.tar.gz"
+    sha256 "d5b103551d8e31a6cdfce0122a902fad53a06377f91bb580935c034a3dd42cce"
   end
 
   depends_on "git"
